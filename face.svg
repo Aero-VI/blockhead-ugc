@@ -1,13 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
-  <!-- Classic Roblox Face - The OG smiley -->
+  <!-- Classic Roblox Face - Accurate OG recreation -->
   <rect width="256" height="256" fill="#A1937F"/>
   
-  <!-- Left eye -->
-  <circle cx="90" cy="105" r="12" fill="#1a1a1a"/>
+  <!-- Left eye - vertical oval, slightly taller than wide -->
+  <ellipse cx="95" cy="100" rx="9" ry="13" fill="#1a1a1a"/>
   
-  <!-- Right eye -->
-  <circle cx="166" cy="105" r="12" fill="#1a1a1a"/>
+  <!-- Right eye - vertical oval, matching -->
+  <ellipse cx="161" cy="100" rx="9" ry="13" fill="#1a1a1a"/>
   
-  <!-- Classic smile - thick arc -->
-  <path d="M 80 155 Q 128 195 176 155" stroke="#1a1a1a" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <!-- Classic smile - thinner arc, wider, gentle curve like the original -->
+  <path d="M 75 152 Q 128 185 181 152" stroke="#1a1a1a" stroke-width="5" fill="none" stroke-linecap="round"/>
 </svg>
