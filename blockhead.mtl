@@ -1,7 +1,17 @@
-# Block Head Material
+# Block Head Materials
+mtllib blockhead.mtl
+
 newmtl BlockHead
 Kd 0.631 0.580 0.498
 Ka 0.2 0.2 0.2
 Ks 0.1 0.1 0.1
 Ns 10.0
 d 1.0
+
+newmtl FrontFace
+Kd 0.631 0.580 0.498
+Ka 0.2 0.2 0.2
+Ks 0.1 0.1 0.1
+Ns 10.0
+d 1.0
+map_Kd face.svg
